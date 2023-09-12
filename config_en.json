@@ -1,0 +1,155 @@
+{
+  "HorizonLayout": [
+    {
+      "layout": "logo",
+      "showMenu": true,
+      "showSearch": true,
+      "showLogo": true
+    },
+    {
+      "layout": "category",
+      "type": "icon",
+      "wrap": false,
+      "size": 1.0,
+      "radius": 30.0,
+      "items": [
+        {
+          "category": 79,
+          "image": "https://i.imgur.com/8C3f8mQ.png",
+          "name": "Small Leather",
+          "colors": [
+            "#481F01",
+            "#481F01"
+          ]
+        },
+        {
+          "category": 97,
+          "image": "https://user-images.githubusercontent.com/1459805/62820029-2e679f00-bb88-11e9-80de-fdf115cfd942.png",
+          "name": "Clothing",
+          "colors": [
+            "#65350F",
+            "#65350F"
+          ],
+          "originalColor": false
+        },
+        {
+          "category": 129,
+          "image": "https://i.imgur.com/GMOahLR.png",
+          "name": "App Special",
+          "colors": [
+            "#481F01",
+            "#4A2511"
+          ]
+        },
+        {
+          "category": 73,
+          "image": "https://i.imgur.com/bRT71Sz.png",
+          "name": "Bags",
+          "colors": [
+            "#5E2C04",
+            "#5E2C04"
+          ]
+        },
+        {
+          "category": 101,
+          "image": "https://i.imgur.com/29aGh0F.png",
+          "name": "Shoes",
+          "colors": [
+            "#7C4700",
+            "#5E2C04"
+          ]
+        }
+      ]
+    },
+    {
+      "layout": "bannerImage",
+      "isSlider": true,
+      "autoPlay": false,
+      "showNumber": false,
+      "design": "default",
+      "showBackGround": true,
+      "radius": 8.0,
+      "items": [
+        {
+          "category": 28,
+          "image": "https://i.imgur.com/QdxhC40.png",
+          "padding": 5.0
+        }
+      ]
+    },
+    {
+      "layout": "bannerImage",
+      "items": [
+        {
+          "category": 18,
+          "image": "https://i.imgur.com/JOeul0W.png",
+          "padding": 5.0
+        },
+        {
+          "category": 23,
+          "image": "https://i.imgur.com/AAUAcLD.png",
+          "padding": 5.0,
+          "featured": true
+        }
+      ]
+    },
+    {
+      "name": "Recent View",
+      "layout": "recentView"
+    },
+    {
+      "name": "Tory Burch",
+      "image": "",
+      "layout": "threeColumn",
+      "category": 128,
+      "isSnapping": true
+    },
+    {
+      "name": "Specials",
+      "layout": "twoColumn",
+      "category": 73,
+      "isSnapping": true
+    },
+    {
+      "name": "Small Leather Goods",
+      "layout": "staggered",
+      "limit": 20,
+      "category": 79
+    }
+  ],
+  "Setting": {
+    "MainColor": "#C8AC86",
+    "ProductListLayout": "list",
+    "StickyHeader": false
+  },
+  "TabBar": [
+    {
+      "layout": "home",
+      "icon": "assets/icons/tabs/icon-home.png"
+    },
+    {
+      "layout": "category",
+      "categoryLayout": "card",
+      "icon": "assets/icons/tabs/icon-category.png"
+    },
+    {
+      "layout": "search",
+      "icon": "assets/icons/tabs/icon-search.png"
+    },
+    {
+      "layout": "cart",
+      "icon": "assets/icons/tabs/icon-cart2.png"
+    },
+    {
+      "layout": "profile",
+      "icon": "assets/icons/tabs/icon-user.png"
+    }
+  ],
+  "searchSuggestion": [
+    "man",
+    "dress",
+    "Stitch",
+    "ma"
+  ],
+  "OnBoarding": {}
+}
